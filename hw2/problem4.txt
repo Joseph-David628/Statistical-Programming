@@ -1,0 +1,13 @@
+HW2 #4
+Using AIC, the forward greedy algorithm produced 
+23  3 22 21 49  4 20 34 53 46
+as the best regression with AIC=22, whereas backward greedy produced
+1  3  9 12 20 23 25 34 41 46
+as the best regression while still having AIC=22. We note that the number of explanatory variables is equal (10) and there is some overlap (variables 3,20,23,34,46).
+
+Using BIC, forward greedy produced 
+23  3 22 21 49  4 20 34 53 46 
+with BIC=54.97, while backward greedy produced
+1  3  9 12 20 23 25 34 41 46
+with BIC=54.97 as well. Therefore, we see that the using AIC vs. BIC did not change the outcome of the algorithms; forward and backward greedy produced the same regression regardless of 
+AIC or BIC. 
